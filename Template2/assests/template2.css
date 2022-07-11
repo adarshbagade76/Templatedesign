@@ -1,0 +1,55 @@
+.bgcolor{
+  background-color: grey;
+}
+ .keyboard{
+  margin-left: 274px;
+
+ }
+ .microphone{
+   background-color: rgba(0, 0, 255, 0.341);
+ }
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 13px 61px;
+ text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+ 
+} 
+
+
+  .button2 {background-color: rgba(128, 0, 128, 0.849);
+    margin-top: 25px;
+    margin-bottom: 25px;
+} 
+.button3{background-color: blue;
+  padding-right: 75px;
+}
+  
+
+.button12{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 13px 61px;
+   text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+ 
+}
+.button22{
+background-color: grey;
+margin-top: 23px;
+margin-bottom: 23px;
+
+}
+.button33{
+background-color: pink;
+padding-right: 64px;
+
+}

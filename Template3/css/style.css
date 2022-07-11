@@ -1,0 +1,373 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #ddd;
+}
+
+.voiceSection {
+    bottom: 10rem;
+    position: absolute;
+    left: 9rem;
+}
+
+.dFlex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.mic {
+    border: none;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 69px;
+    font-size: 1.5em;
+    color: #fff;
+    background: linear-gradient(120.1deg, #2A2C4D 0%, rgba(42, 44, 77, 0.6) 98.89%);
+    box-shadow: 0px 0px 17px 4px rgb(16 17 37 / 25%);
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.keyboard {
+    border: none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    line-height: 69px;
+    font-size: 1.5em;
+    color: #fff;
+    background: #e91e63;
+    box-shadow: 0px 0px 17px 4px rgb(16 17 37 / 25%);
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    left: 4rem;
+    top: -1rem;
+}
+
+.keyboard.moveFrontKeyboard {
+    border: none;
+    border-radius: 100%;
+    box-shadow: 0px 0px 17px 4px rgb(16 17 37 / 25%);
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    position: absolute;
+    user-select: none;
+    left: 4rem;
+    top: -1rem;
+}
+
+
+
+
+.moveFrontKeyboard {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+}
+
+
+@-webkit-keyframes slideInRight {
+    0% {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        visibility: visible;
+        width: 30px;
+        height: 30px;
+        background: #e91e63;
+    }
+
+    50% {
+        -webkit-transform: translate(50%, 50%);
+        transform: translate(50%, 50%);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        width: 60px;
+        height: 60px;
+        line-height: 69px;
+        font-size: 1.5em;
+        color: #fff;
+        background: #e91e63;
+        left: 0;
+        top: 0;
+    }
+}
+
+.mic.moveBackMic {
+    border: none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    line-height: 69px;
+    font-size: 1.5em;
+    color: #fff;
+    box-shadow: 0px 0px 17px 4px rgb(16 17 37 / 25%);
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.moveBackMic {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+}
+.moveFrontMic{
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  
+}
+
+@-webkit-keyframes slideInLeft {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        visibility: visible;
+
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        visibility: visible;
+        width: 60px;
+        height: 60px;
+        left: 0;
+        top: 0;
+    }
+    50% {
+        -webkit-transform: translate(-40%, -70%);
+        transform: translate(-40%, -70%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        width: 30px;
+        height: 30px;
+        line-height: 69px;
+        font-size: 1.5em;
+        color: #fff;
+        position: absolute;
+        left: 4rem;
+        top: -1rem;
+    }
+}
+/* sdfghjkl;'
+sdfghjkl;'' */
+
+.mic.moveFrontMic {
+    border: none;
+    border-radius: 100%;
+    box-shadow: 0px 0px 17px 4px rgba(248, 22, 154, 0.25);
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    position: absolute;
+    user-select: none;
+    left: 4rem;
+    top: -1rem;
+    
+}
+
+
+
+
+.moveFrontMic {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+   
+}
+
+@-webkit-keyframes slideInRight {
+    0% {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        visibility: visible;
+        width: 30px;
+        height: 30px;
+        /* background:#d41756; */
+    }
+
+    50% {
+        -webkit-transform: translate(50%, 50%);
+        transform: translate(50%, 50%);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        width: 60px;
+        height: 60px;
+        line-height: 69px;
+        font-size: 1.5em;
+        color: #fff;
+        /* background: #2A2C4D 0%; */
+        left: 0;
+        top: 0;
+    }
+}
+
+.keyboard.moveBackKeyboard {
+    border: none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    line-height: 69px;
+    font-size: 1.5em;
+    color: #fff;
+    box-shadow: 0px 0px 17px 4px rgba(236, 53, 181, 0.25);
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.moveBackKeyboard {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+}
+
+@-webkit-keyframes slideInLeft {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        visibility: visible;
+
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        visibility: visible;
+        width: 60px;
+        height: 60px;
+        left: 0;
+        top: 0;
+    }
+    50% {
+        -webkit-transform: translate(-40%, -70%);
+        transform: translate(-40%, -70%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        width: 30px;
+        height: 30px;
+        line-height: 69px;
+        font-size: 1.5em;
+        color: #fff;
+        position: absolute;
+        left: 4rem;
+        top: -1rem;
+    }
+}
+

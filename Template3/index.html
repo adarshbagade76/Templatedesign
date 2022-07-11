@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Request Animation</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="voiceSection dFlex">
+
+            <div>
+                <button id="keyboard" class="keyboard" onclick="keyFunction()">
+                </button>
+            </div>
+            <div>
+                <button id="speachMic" class="mic" onclick="myFunction2()">
+
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        function keyFunction() {
+            document.getElementById("speachMic")
+            speachMic.classList.add("moveBackMic")
+
+            document.getElementById("keyboard")
+            keyboard.classList.add("moveFrontKeyboard")
+
+
+        }
+        function myFunction2() {
+          
+             document.getElementById("keyboard")
+             keyboard.classList.add("moveBackKeyboard")
+
+            document.getElementById("speachMic")
+            speachMic.classList.add("moveFrontMic")
+  
+        }
+
+    </script>
+</body>
+
+</html>

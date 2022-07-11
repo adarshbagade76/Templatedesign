@@ -1,0 +1,713 @@
+input[type="text"]
+{
+    border: 0ch;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px 25px 25px 25px;
+    padding: 0px 25px;
+    outline: none;
+}
+input[type="submit"]
+{
+  border: 0ch;
+    left: -98px;
+    position: relative;
+    border-radius: 25px 20px 25px;
+     height: 35px ;
+     background: green;
+     color: aliceblue;
+}
+.ipo{
+    padding-left: 70px;
+
+}
+ #tre{
+    background-color:rgba(0, 128, 0, 0.593)  ; 
+    /* padding-top: 98px;
+    padding-left: 338px; */
+    margin-top: 40px;
+    padding-left: 24px;
+  
+  
+}
+#responsive{
+    /* display:flex ; */
+    /* flex-wrap: nowrap;
+    min-width: fit-content;
+    flex-direction: column; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    min-width: fit-content;
+   
+    position: relative;
+    z-index: index 1; 
+    margin: 0px;
+    padding: 0px;
+    gap: gap;
+    box-sizing: border-box;
+}
+.leftcontent {
+    margin-top: 110px;
+}
+
+.asd{
+    margin-top: 40px;
+}
+demo
+{
+    bottom: auto;
+}
+create{
+display: flex;
+}
+.demo1
+{
+    color: blue;
+
+}
+.demo1567{
+    color: blue;
+    padding: 49px;
+
+    padding-left: 398px;
+}
+.demo34
+{
+    justify-content: center;
+    text-align: center;
+    color: blue;
+}
+.demo00{
+    padding-top: 105px;
+}
+.cardd {
+    border-radius: 10px;
+    margin-top: 34px;
+    margin-right: 79%;
+    padding-right: 33px;
+    padding-top: 28px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: red;
+}
+.card54{
+    background-color: rgba(135, 207, 235, 0.753);
+    position: relative;
+    top: 183px;
+    left: -878px;
+
+}
+.column2{
+    border-radius: 10px;
+    background-color: rgba(144, 238, 144, 0.705);
+    width: 344px;
+    padding: 58px;
+    margin-left: 30px;
+    padding-left: 116px;
+
+}
+
+.column3{
+    border-radius: 10px;
+    background-color:rgba(255, 182, 193, 0.589) ;
+    width: 344px;
+    padding: 58px;
+    margin-left: 30px;
+    padding-left: 95px;
+    left: 796px;
+    top: -234px;
+
+
+}
+.column1{
+    border-radius: 10px;
+    
+    background-color: rgba(135, 207, 235, 0.753);
+    width: 344px;
+    padding: 58px;
+    margin-left: 30px;
+    padding-left: 88px;
+}
+.arrowp{
+   
+    padding-top: 87px;
+  
+}
+
+.wrapper{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+grid-auto-rows: minmax(100px,auto);
+grid-gap: 1em;
+
+}
+
+.wrapper>div{
+
+background-color: red;
+padding: 1em;
+justify-content: center;
+text-align: center;
+}
+
+.dis{
+    padding-left: 360px;
+}
+
+.topnav{
+float:left;
+text-align: right;
+justify-content: right;
+
+}
+.imgcol2{
+position: absolute;
+top: 192px;
+left: 0px;
+}
+.gui2{
+    position: absolute;
+    top: 14px;
+    left: 108px;
+    color: white;
+}
+.p222{
+    position: relative;
+    top: -85px;
+    left: 107px;
+
+}
+.imgcol3{
+ position: relative;
+ top: 98px;
+left: 1px;
+}
+
+.cha3{
+    position: relative;
+    top: -40px;
+    left: -26px;
+    color: white;
+}
+.c333{
+
+    position: relative;
+    top: -83px;
+    left: 111px;
+}
+.imgcol4{
+
+    position: relative;
+    top: 37px;
+    left: 8px;
+
+}
+.tak3{
+    position: relative;
+    top: -40px;
+    right: 23px;
+    color: white;
+
+}
+.t333{
+    position: relative;
+    top: -77px;
+    left: 106px;
+}
+.imgcol5{
+
+    position: relative;
+    top: -29px;
+    left: 2px;
+
+}
+.sel5{
+    position: relative;
+    top: -42px;
+    left: -31px;
+    color: white;
+}
+.s555{
+
+    position: relative;
+    top: -78px;
+    left: 108px;
+    color: white;
+
+}
+.pd{
+    position: relative;
+    top: -742px;
+    padding-left: 481px;;
+
+}
+/* @media screen and (max-width: 992px) {
+    .dept {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .dept {
+      width: 100%;
+    }
+  }
+   */
+   #jk{
+    position: relative;
+    top: -22px;
+    /* right: 211px; */
+    left: -277px;
+    color: white;
+     }
+     #jk1{
+        position: relative;
+        top: 107px;
+
+     }
+   #ka{
+    position: relative;
+    top: -131px;
+    right: -119px;
+    color:white
+}
+   
+    #ka1{
+        position: relative;
+        top: -105px;
+    
+
+   }
+   #ka{
+    position: relative;
+    /* top: 84px; */
+    top: -228px;
+    color:white;
+}
+
+   
+   #ch{
+    
+    position: relative;
+    top: -323px;
+    right: -118px;
+    color:white
+
+   }
+   #cd{
+    position: relative;
+    top: -195px;;
+   }
+   #tk{
+    position: relative;
+    top: -426px;
+    right: -120px;
+   }
+   #tk1{
+    position: relative;
+    top: -302px;
+   }
+   #sl{
+    position: relative;
+    top: -247px;
+    right: -123px;
+    color: white;
+
+   }
+   #co1{
+    position: relative;
+    top: -171px;
+   }
+   #co{
+    position: relative;
+    color: white;
+   
+    top: -294px;
+    right: -110px;
+   }
+   #ga{
+    position: relative;
+    top: -185px;
+    right: -117px;
+    color: white;
+   }
+   #ga1{
+    position: relative;
+    top: -64px;
+   }
+   #ep{
+    position: relative;
+    right: -509px;
+    top: 5px;
+    color: white;
+
+   }
+   .last{
+       padding-top: 34px;
+     
+       margin-left: -125px;
+   }
+   last1{
+    position: relative;
+    padding-left: 136px;
+   }
+   .dot {
+       padding: 25px;
+     
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 23px;
+  }
+  .lo{
+      
+    position: relative;
+    left: 449px;
+
+  }
+  .mm{
+      
+    position: relative;
+    top: -162px;
+    padding-left: 182px;
+
+  }
+  .mm1{
+    position: relative;
+    margin-left: 403px;
+    top: -404px;
+
+  }
+  .mm2{
+    position: relative;
+    padding-left: 616px;
+    top: -645px;
+  }
+  .mm3{
+      
+    position: relative;
+    padding-left: -17px;
+    top: -843px;
+    padding-left: 808px;
+
+  }
+  .mk{
+    position: relative;
+    margin-left: -163px;
+  }
+
+  
+
+
+
+
+/* bvfnmkcnfdmvkryfjeimuhf */
+.demo456{
+
+    color: black;
+}
+
+
+.card1 {
+    /* margin-right: 20px; */
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0px;
+    word-wrap: break-word;
+    background-color:#0000ff17;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    padding: 33px;
+    border-radius: 21px;
+}
+
+.card2 {
+    /* margin-right: 20px; */
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0px;
+    word-wrap: break-word;
+    background-color: #00800024;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    padding: 33px;
+    border-radius: 21px;
+}
+
+.card3 {
+    /* margin-right: 20px; */
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0px;
+    word-wrap: break-word;
+    background-color: #ffc0cb8a;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    padding: 33px;
+    border-radius: 21px;
+}
+
+.card-body1{
+    padding: 20px;
+}
+.card-body2{
+    padding: 15px 55px 15px 60px;
+}
+
+.card-body3{
+    padding: 20px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.emptycards {
+    display: flex;
+  
+    color: #f75b5b;
+  
+    padding: 15px 70px 10px 35px;
+    
+  }
+  @media screen and (max-width: 600px) {
+    .emptycards {
+        display: block;
+        margin-left: 1px;
+    }
+  }
+
+  .supp{                            
+    position: absolute;
+    top: 11%;
+
+    right: 40%;
+    color: white;
+}
+.p1 {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.col.p-3.mr-3{
+   
+    border-radius: 9px;
+    background-color: #f75b5b;
+}
+.dot19 {
+    position: absolute;
+    color: #6d6df4;
+    font-size: 36px;
+    top: -12%;
+    left: 11%;
+  }
+
+  .dot20{
+    position: absolute;
+    color: #6d6df4;
+    font-size: 36px;
+    top: -8%;
+    left: 26%;
+  }
+.hrtag{
+    margin-right: 91px;
+    width: 95%;
+    margin-top: 67px;
+    margin-bottom: 45px;
+}
+@media screen and (max-width: 500px) {
+    input[type="submit"] {
+        border: 0ch;
+    left: -101px;
+    position: relative;
+    border-radius: 25px 20px 25px;
+    height: 35px;
+    background: green;
+    color: aliceblue;
+    top: 0px;
+    }
+    @media screen and (max-width: 500px) {
+    mquery{
+            position: relative;
+  
+    }
+    }
+
+    
+/* .para1 {
+    margin-left: 37px;
+} */
+
+.imgflid1{
+    right: 58%;
+    position: absolute;
+    top: 10%;
+}
+
+
+
+    }
+    .p{
+        position: relative;
+        top: -85px;
+        left: 108px;
+    }
+    .gui1
+    {
+        position: relative;
+        top: -82px;
+        left: -33px;
+        font-size: 18px;
+        color: white;  
+    }
+    .g1{
+        position: relative;
+        top: -126px;
+        right: -115px;
+    }
+    
+    .g31
+    {
+        
+        position: relative;
+        top: -45px;
+        left: -3px;
+    }
+    .c{
+        position: relative;
+        top: -164px;
+        left: 109px;
+    }
+    .cha{
+        position: relative;
+        top: -124px;
+        left: -14px;
+        font-size: 18px;
+        color: white;
+    }
+    .c3{
+        
+    position: relative;
+    top: -83px;
+
+    }
+  .t3{
+    position: relative;
+    top: -144px;
+  }
+  .tak{
+    position: relative;
+    top: -182px;
+    left: -20px;
+    font-size: 17px;
+    color: white;
+  }
+  .t{
+    position: relative;
+    top: -224px;
+    right: -103px;
+  }
+  .s3{
+
+    position: relative;
+    top: -51px;
+
+  }
+  .sel{
+    position: relative;
+    top: -89px;
+    left: -24px;
+    color: white;
+}
+  
+.s{
+    position: relative;
+    top: -129px;
+    left: 113px;
+    color: white;
+}
+.e3{
+    position: relative;
+    top: -106px;
+}
+.e{
+    position: relative;
+    top: -184px;
+    left: 23pz;
+    color: white;
+    left: 112px;
+}
+.exp{
+    position: relative;
+    top: -136px;
+    left: -21px;
+    color: white;
+    font-size: 18px;
+}
+.g3{
+    
+    position: relative;
+    top: -189px;
+    left: 3px;
+}
+.demoi{
+    position: relative;
+    top: -268px;
+    left: 121px;
+    color: white;
+}
+.gat{
+    position: relative;
+    top: -226px;
+    left: -8px;
+    color: white;
+    font-size: 18px;
+}
+.ga{
+    position: relative;
+    top: -218px;
+    color: white;
+    left: 123px;
+}
+.cnn3{
+    position: relative;
+    top: -253px;
+    left: 12px;
+}
+.cc{
+    position: relative;
+    left: 127px;
+    top: -332px;
+    color: white;
+    
+    
+}
+.conn
+{
+    position: relative;
+    top: -295px;
+    left: -9px;
+    font-size: 17px;
+    color: white;
+}
+
+
+
+
+   
